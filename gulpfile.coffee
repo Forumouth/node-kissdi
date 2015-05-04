@@ -5,7 +5,7 @@ coffeelint = require "gulp-coffeelint"
 plumber = require "gulp-plumber"
 coffee = require "gulp-coffee"
 
-g.task "tests", ->
+g.task "test", ->
   g.src(
     "./tests/specs/**/*.coffee"
   ).pipe(
@@ -31,7 +31,7 @@ g.task "gulpfile-syntax", ->
     coffeelint.reporter "failOnWarning"
   )
 
-g.task "compile", ["tests"], ->
+g.task "compile", ["test"], ->
   g.src(
     "./src/**/*.coffee"
   ).pipe(
