@@ -1,6 +1,8 @@
 # Simple Dependency Injection for NodeJS
 [![Build Status](https://travis-ci.org/Forumouth/node-kissdi.svg)](https://travis-ci.org/Forumouth/node-kissdi)
 
+[![NPM](https://nodei.co/npm/node-kissdi.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-kissdi/)
+
 ## What this?
 This lib provides [Dependency Injection](https://msdn.microsoft.com/en-us/magazine/cc163739.aspx)
 to NodeJS by super-simple approach.
