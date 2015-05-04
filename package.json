@@ -23,6 +23,7 @@
     "url": "https://github.com/forumouth/kissdi/issues"
   },
   "homepage": "https://github.com/forumouth/kissdi#readme",
+  "main": "./lib/kissdi.js",
   "devDependencies": {
     "chai": "^2.3.0",
     "coffee-script": "^1.9.2",
