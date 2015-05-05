@@ -15,7 +15,7 @@ Also just simple!
 
 ```JavaScript
 // kissdi has a function named 'inject' as library's member.
-inject = require("kissdi").inject
+inject = require("node-kissdi").inject
 /*
  * To inject a function, we need to create a "target function"
  * the target function should be an instance of Array that has a function as
