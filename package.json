@@ -1,6 +1,6 @@
 {
   "name": "node-kissdi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Super Simple Dependecy Injection for NodeJS/IO.js",
   "main": "lib/kissdi.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forumouth/kissdi.git"
+    "url": "https://github.com/Forumouth/node-kissdi.git"
   },
   "keywords": [
     "Dependency Injection",
@@ -20,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forumouth/kissdi/issues"
+    "url": "https://github.com/forumouth/node-kissdi/issues"
   },
-  "homepage": "https://github.com/forumouth/kissdi#readme",
+  "homepage": "https://github.com/forumouth/node-kissdi",
   "main": "./lib/kissdi.js",
   "devDependencies": {
     "chai": "^2.3.0",
