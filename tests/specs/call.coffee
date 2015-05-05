@@ -25,7 +25,7 @@ describe "Injector function call tests", ->
       factor =
         "test": "Helo"
         "test2": "Konichiwa"
-    it "SHould be Helo Konichiwa", ->
+    it "Should be Helo Konichiwa", ->
       expect(injectObj.invoke factor).eql ["Helo", "Konichiwa"]
 
     describe "If the factor lacks something...", ->

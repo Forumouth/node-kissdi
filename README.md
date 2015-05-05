@@ -13,8 +13,8 @@ Just run ```npm install kissdi```
 ## How to use
 Also just simple!
 
-~~~~
-// kissdir has a function named 'inject' as library's member.
+```JavaScript
+// kissdi has a function named 'inject' as library's member.
 inject = require("kissdi").inject
 /*
  * To inject a function, we need to create a "target function"
@@ -55,4 +55,4 @@ var func = inject_func.invoke({
 // func() returns ["Konichiwa", "World"]
 var list = func()
 // expect: ["Konichiwa", "World"]
-~~~~
+```
