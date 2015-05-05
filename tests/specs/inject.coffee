@@ -48,6 +48,38 @@ describe "mkfunc tests", ->
           ).throw TypeError, errMsg
       describe "Array, case, but it has non-string values", ->
         errMsg2 = "Target contains non-string param(s)"
+        describe "Undefined case", ->
+          expect(->
+            mkfunc [
+              undefined
+              "test2"
+              (t, t2) -> [t, t2]
+            ], secArg
+          ).throw TypeError, errMsg2
+        describe "null case", ->
+          expect(->
+            mkfunc [
+              "test"
+              null
+              (t, t2) -> [t, t2]
+            ], secArg
+          ).throw TypeError, errMsg2
+        describe "true case", ->
+          expect(->
+            mkfunc [
+              "test"
+              true
+              (t, t2) -> [t, t2]
+            ], secArg
+          ).throw TypeError, errMsg2
+        describe "false case", ->
+          expect(->
+            mkfunc [
+              false
+              "test2"
+              (t, t2) -> [t, t2]
+            ], secArg
+          ).throw TypeError, errMsg2
         describe "Number case", ->
           it "Should throw TypeError", ->
             expect(->
