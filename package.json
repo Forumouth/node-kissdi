@@ -1,6 +1,6 @@
 {
   "name": "node-kissdi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Super Simple Dependecy Injection for NodeJS/IO.js",
   "main": "lib/kissdi.js",
   "scripts": {
